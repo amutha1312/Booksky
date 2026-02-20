@@ -1,0 +1,148 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    top: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: rgb(55, 155, 155);
+    padding: 10px;
+    top: 0;
+    margin-left: 0;
+
+}
+
+.bookContainer {
+    background-color: black;
+    color: white;
+    width: 25%;
+    top: 0;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bookContainer .bookName {
+    color: rgb(149, 247, 245);
+
+}
+
+.bookContainer .authorName {
+    color: rgb(147, 247, 245);
+}
+
+.bookContainer .description {
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+    word-wrap: break-word;
+}
+
+.deleteBtn {
+    background-color: rgb(139, 239, 239);
+    border-radius: 5px;
+    padding: 9px;
+    margin-left: 80%;
+    border: none;
+
+}
+
+.addBtn {
+    border-radius: 100px;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(55, 155, 155);
+    border: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    color: rgb(54, 51, 51);
+    font-size: 35px;
+}
+
+.backgroundWindow {
+    position: absolute;
+    background: rgba(6, 6, 6, 0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+
+.popup {
+    background-color: rgb(137, 241, 249);
+    color: black;
+    width: 40%;
+    height: 53%;
+    margin-top: 120px;
+    margin-left: 25%;
+    border-radius: 15px;
+    padding-left: 15px;
+    display: none;
+    padding-bottom: 10px;
+}
+
+.popup input {
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(42, 41, 41);
+    width: 90%;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: solid black 2px;
+}
+
+.popup input::placeholder {
+    color: black;
+}
+
+.popup input:focus {
+    outline: none;
+}
+
+.popup textarea {
+    font-size: 20px;
+    background-color: transparent;
+    color: rgb(42, 41, 41);
+    width: 90%;
+    height: 40%;
+    border: solid black 2px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.popup textarea:focus {
+    outline: none;
+}
+
+.popup textarea::placeholder {
+    color: black;
+}
+
+.popup button {
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 251, 251);
+    width: 30%;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
