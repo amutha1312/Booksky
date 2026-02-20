@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Booksky Project</title>
+    <link href="booksky.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <h2>BOOKSKY PROJECT</h2>
+    </div>
+    <div class="container">
+        <div class="bookContainer">
+            <h2 class="bookName">Book Name</h2>
+            <h4 class="authorName">Author Name </h4>
+            <p class="description">Reading books enhances cognitive skills by boosting memory, concentration, and
+                critical thinking. It
+                significantly reduces stress levels and promotes relaxation, acting as a mental escape. Regular
+                reading
+                expands vocabulary, improves communication skills, and fosters creativity.
+            </p>
+            <button class="deleteBtn" onclick="deleteBook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="backgroundWindow">
+        <div class="popup">
+            <input placeholder="Book Name" class="bookinput">
+            <input placeholder="Author Name" class="authorinput">
+            <textarea placeholder="Description" class="descriptioninput"></textarea>
+            <button onclick="cancel()">Cancel</button>
+            <button onclick="addInfo()">Add</button>
+        </div>
+    </div>
+    <button id="addBtn" class="addBtn" onclick="addData()">+</button>
+
+</body>
+<script src="booksky.js"></script>
+
+</html>
